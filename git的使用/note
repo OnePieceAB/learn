@@ -11,3 +11,4 @@ git branch 分支名 //创建分支
 git checkout 分支名 //切换分支
 
 
+master分支是主分支，HEAD指向当前分支，master指向当前分支，HEAD指向当前分支，master指向当前分支，master指向当前分支
