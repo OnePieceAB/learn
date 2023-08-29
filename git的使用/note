@@ -9,6 +9,18 @@ git reflog //查看babeng版本库中所有版本号
 git branch //查看当前分支
 git branch 分支名 //创建分支
 git checkout 分支名 //切换分支
-
+git merge 分支名 //合并分支
+git clone 仓库地址 //克隆仓库
+git remote -v //查看远程仓库地址
+git remote add 仓库名 仓库地址 //添加远程仓库地址
+git push -u origin master //将当前分支提交到远程仓库
+git pull //将远程仓库的代码拉到本地仓库
+git stash //将当前工作区的代码暂存
+git stash pop //将暂存区的代码恢复到工作区
+git tag 版本号 //为当前分支打标签
+git tag -a 版本号 -m 版本信息 //为当前分支打标签
+git tag -a 版本号 -m 版本信息 分支名 //为指定分支打标签
+git tag -d 版本号 //删除标签
 
 master分支是主分支，HEAD指向当前分支，master指向当前分支，HEAD指向当前分支，master指向当前分支，master指向当前分支
+testing 这是分支 
