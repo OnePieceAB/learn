@@ -1,0 +1,7 @@
+git init //生成一个.git 的子目录，产生一个仓库
+git status //查看当前仓库目录下所有文件的状态
+git add . //将该目录下所有文件添加到暂存区
+git add 文件名 //将该文件添加到暂存区
+git commit -m  版本名 //将暂存区的文件提交到版本库
+git log //查看提交历史
+git reset --hard 版本号 //将当前版本回退到指定版本
