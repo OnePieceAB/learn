@@ -5,3 +5,9 @@ git add 文件名 //将该文件添加到暂存区
 git commit -m  版本名 //将暂存区的文件提交到版本库
 git log //查看提交历史
 git reset --hard 版本号 //将当前版本回退到指定版本
+git reflog //查看babeng版本库中所有版本号
+git branch //查看当前分支
+git branch 分支名 //创建分支
+git checkout 分支名 //切换分支
+
+
