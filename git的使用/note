@@ -11,8 +11,4 @@ git branch 分支名 //创建分支
 git checkout 分支名 //切换分支
 
 
-testing
-testing
-testing
-testing
-testing
+testing 这是分支 
