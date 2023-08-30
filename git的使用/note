@@ -21,6 +21,7 @@ git tag 版本号 //为当前分支打标签
 git tag -a 版本号 -m 版本信息 //为当前分支打标签
 git tag -a 版本号 -m 版本信息 分支名 //为指定分支打标签
 git tag -d 版本号 //删除标签
+git diff   版本号1 版本号2 //对比两个版本号之间的差异
 
 master分支是主分支，HEAD指向当前分支，master指向当前分支，HEAD指向当前分支，master指向当前分支，master指向当前分支
 testing 这是分支 
