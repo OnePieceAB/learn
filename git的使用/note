@@ -22,6 +22,16 @@ git tag -a 版本号 -m 版本信息 //为当前分支打标签
 git tag -a 版本号 -m 版本信息 分支名 //为指定分支打标签
 git tag -d 版本号 //删除标签
 git diff   版本号1 版本号2 //对比两个版本号之间的差异
+git remote add origin <URL> //连接远程库
+git push -u origin <分支名>//推送本地内容到远程库
+git pull origin master   //
+git pull --all // 获取远程所有内容包括tag  
+git pull origin next:master // 取回origin主机的next分支，与本地的master分支合并  
+git pull origin next //远程分支是与当前分支合并  
+//上面一条命令等同于下面两条命令   
+git fetch origin  
+git merge origin/next 
+
 
 master分支是主分支，HEAD指向当前分支，master指向当前分支，HEAD指向当前分支，master指向当前分支，master指向当前分支
 testing 这是分支 

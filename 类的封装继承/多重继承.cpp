@@ -8,7 +8,7 @@ public:
     base_a(const char *str)
     {
         strcpy(this->str, str);
-        // cout << "str=" << str << endl;
+        
     }
     void show()
     {
@@ -25,7 +25,7 @@ public:
     base_b(float f)
     {
         this->f = f;
-        // cout << "f=" << f << endl;
+       
     }
     void show()
     {
@@ -39,7 +39,6 @@ private:
 class base_c : public base_a, public base_b
 {
 public:
-    // base_c(const char *str, float f, const char *p, int size) : base_a(str), base_b(f), size(size)
     base_c(const char *str, float f, const char *p, int size) : base_b(f), base_a(str), size(size)
     {
         this->p = new char[size];
